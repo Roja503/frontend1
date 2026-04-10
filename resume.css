@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.resume {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* LEFT SIDE */
+.left {
+    background: grey;
+    padding: 20px;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.left h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.left p, .left li {
+    font-size: 14px;
+}
+
+.left ul {
+    padding-left: 18px;
+}
+
+/* RIGHT SIDE */
+.right {
+    padding: 20px;
+}
+
+.right h1 {
+    margin: 0;
+    color: rgb(57, 143, 205);
+}
+
+.role {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.right h2 {
+    border-bottom: 2px solid peachpuff;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.right p, .right li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+ol {
+    padding-left: 18px;
+}
+.project-box {
+    background: aquamarine;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.project-box li {
+    margin-bottom: 10px;
+}
