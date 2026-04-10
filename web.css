@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#dfe6ef;
+    margin:0;
+}
+
+
+.wrapper{
+    width:1100px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+
+.top{
+    text-align:center;
+}
+
+.top h1{
+    background:linear-gradient(to right,#1f3c5b,#2f5d8a);
+    color:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+
+.content{
+    display:flex;
+    gap:20px;
+    align-items:stretch;
+}
+
+.left,.right{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.left .card{
+    flex:1;
+}
+
+
+.card{
+    background:#f7f9fc;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom:15px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.15);
+}
+
+.card-title{
+    background:linear-gradient(to right,#2f5d8a,#3f77a8);
+    color:white;
+    text-align:center;
+    padding:10px;
+    border-radius:6px;
+    margin-bottom:10px;
+}
+
+ul{
+    padding-left:20px;
+    line-height:1.6;
+}
+
+.step{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:18px;
+}
+
+.step span{
+    background:#2f5d8a;
+    color:white;
+    min-width:28px;
+    height:28px;
+    text-align:center;
+    line-height:28px;
+    border-radius:6px;
+    font-weight:bold;
+    flex-shrink:0;
+}
+
+.step p{
+    margin:0;
+    line-height:1.5;
+}
+
+.step b{
+    display:block;
+    margin-bottom:3px;
+}
+
+.check{
+    list-style:none;
+    padding:0;
+}
+
+.check li::before{
+    content:"✔ ";
+    color:green;
+}
+
+.blog{
+    text-align:center;
+    background:white;
+    padding:10px;
+    border-radius:10px;
+}
+
+.sub{
+    color:gray;
+}
+
+
+button{
+    background:#2f5d8a;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+
+img{
+    width:100%;
+    border-radius:8px;
+    margin:10px 0;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid #bbb;
+}
+
+th{
+    background:#30608f;
+    color:white;
+}
+
+
+video,audio{
+    width:100%;
+    margin-top:10px;
+}
+
+
+.iframe-box{
+    background:#eee;
+    padding:10px;
+    border-radius:6px;
+    margin-top:10px;
+}
